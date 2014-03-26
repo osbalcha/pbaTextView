@@ -115,8 +115,7 @@
 		2E72E46D18BA8DE600472B47 /* pbaTextView */ = {
 			isa = PBXGroup;
 			children = (
-				2E72E47918BA8DE600472B47 /* AppDelegate.h */,
-				2E72E47A18BA8DE600472B47 /* AppDelegate.m */,
+				2EE23BC618E37B44002D7945 /* App Delegate */,
 				2E72E47C18BA8DE600472B47 /* MainMenu.xib */,
 				2E72E47F18BA8DE600472B47 /* Images.xcassets */,
 				2E72E46E18BA8DE600472B47 /* Supporting Files */,
@@ -152,6 +151,15 @@
 				2E72E48E18BA8DE600472B47 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EE23BC618E37B44002D7945 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2E72E47918BA8DE600472B47 /* AppDelegate.h */,
+				2E72E47A18BA8DE600472B47 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +472,7 @@
 				2E72E49718BA8DE600472B47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E72E49818BA8DE600472B47 /* Build configuration list for PBXNativeTarget "pbaTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +481,7 @@
 				2E72E49A18BA8DE600472B47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
